@@ -1,0 +1,20 @@
+#bars {
+  width: 600px;
+  height: 200px;
+  background-color: rgb(212, 212, 212);
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  --height: 150;
+}
+
+.bar {
+  height: calc(var(--height) * 2px);
+  width: 15px;
+  background-color: rgb(53, 241, 53);
+  border: 1px solid black;
+}
+
+.hidden {
+  opacity: 100%;
+}
